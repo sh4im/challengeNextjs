@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "email": "muser1",
+      "password": "mpassword1",
+      "active": true
+    },
+    {
+      "email": "muser2",
+      "password": "mpassword2",
+      "active": true
+    },
+    {
+      "email": "muser3",
+      "password": "mpassword3",
+      "active": false
+    }
+  ]
+}
