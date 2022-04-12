@@ -10,10 +10,11 @@ import ButtonMenu from '../shared/button-with-menu';
 import { HeaderActionProps } from './header.interfaces';
 import { HEADER_HEIGHT, useLayoutStyles } from './useLayoutStyles';
 import { ButtonWithIcon } from '../shared/button-with-icon';
+import { HeaderActionsLinks } from './header-links';
 
-export function HeaderActionComponent({ links }: HeaderActionProps) {
+export function HeaderActionComponent() {
   const { classes } = useLayoutStyles();
-  const items = links.map((link) => {
+  const items = HeaderActionsLinks.links.map((link) => {
     const menuItems = link.links?.map((item) => (
       <Menu.Item key={item.link}>{item.label}</Menu.Item>
     ));

@@ -35,7 +35,6 @@ export function FeatureCard({
   const { classes, cx } = useFeatureCardStyles();
   const theme = useMantineTheme();
   async function like() {
-    console.log("like image");
   }
   return (
     <Card withBorder radius="md" className={cx(classes.card)} {...others}>
